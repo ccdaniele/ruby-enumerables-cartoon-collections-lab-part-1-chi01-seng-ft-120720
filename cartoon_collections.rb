@@ -12,6 +12,8 @@ end
 
 def list_dwarves(array)
   
+  array.each {|array|
+    puts "Hello #{array}!"}
   
   # Use `each_with_index` to enumerate over the provided array
   #
